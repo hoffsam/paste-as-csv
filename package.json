@@ -1,0 +1,36 @@
+{
+  "name": "paste-as-csv",
+  "displayName": "Copy from Excel and Paste as CSV",
+  "description": "Paste clipboard content from Excel and convert TSV to CSV automatically.",
+  "version": "1.0.1",
+  "publisher": "Sammy",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:pasteAsCsv.pasteAndConvert"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pasteAsCsv.pasteAndConvert",
+        "title": "Paste Excel as CSV"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "typescript": "^5.2.0",
+    "tslint": "^6.0.0",
+    "vsce": "^2.15.0"
+  }
+}
