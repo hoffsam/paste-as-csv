@@ -20,6 +20,12 @@ This VS Code extension provides a simple command to paste tab-separated clipboar
 
 None.
 
+## Repository
+
+📦 GitHub: [github.com/hoffsam/paste-as-csv](https://github.com/hoffsam/paste-as-csv)
+
+🐞 Issues: [Submit a bug report](https://github.com/hoffsam/paste-as-csv/issues)
+
 ---
 
 MIT License.
